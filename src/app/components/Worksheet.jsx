@@ -8,10 +8,8 @@ const Worksheet = () => {
   const [score, setScore] = useState(null);
   const [feedback, setFeedback] = useState(Array(12).fill(null));
 
-  // Correct answers for each question in terms of A, B, or C
   const correctAnswers = ['B', 'B', 'C', 'B', 'C', 'A', 'A', 'A', 'C', 'C', 'A', 'B'];
 
-  // Questions and choices
   const questions = [
     {
       question: "17 rounded to the nearest 10",
