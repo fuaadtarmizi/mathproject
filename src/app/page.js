@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import Worksheet from '@/app/components/worksheet';
+import Worksheet from './components/Worksheet';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Math Worksheet</title>
+        <title>Fuaad Math Worksheet</title>
         <meta name="description" content="Math worksheet app" />
       </Head>
 
